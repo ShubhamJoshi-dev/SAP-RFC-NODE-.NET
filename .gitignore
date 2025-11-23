@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+
+# Build output
+lib/bin/
+lib/obj/
+bin/
+obj/
+
+# IDE
+.vs/
+.vscode/
+*.suo
+*.user
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config files with credentials
+*config*.json
+*config*.xml
+
+# SAP NCo DLLs (users must download separately)
+external/*.dll
+lib/bin/*.dll
+lib/bin/*.exe
+
+# Test files
+test-*.js
+verify-*.js
+random.js
+
+# Package artifacts
+*.tgz
+
+# Documentation drafts
+PUBLISH*.md
+TEST_RESULTS.md
+UPDATE_SUMMARY.md
+V1.4.0_RELEASE_NOTES.md
+V2.0.0_BREAKING_CHANGES.md
+START_HERE.md
+SYNC_FUNCTION_ADDED.md
+QUICK_START_ALL_METHODS.js
+README_UPDATED.md
+VENDOR_UPDATE_GUIDE.md
+
+# Legacy files
+SapConfigurationModel.cs
+SapDestinationConfig.cs

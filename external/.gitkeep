@@ -1,0 +1,16 @@
+# SAP NCo DLLs Location
+
+⚠️ IMPORTANT: Copy DLLs to lib/bin/ folder, not here!
+
+Copy the following files to: lib/bin/
+
+- sapnco.dll → lib/bin/sapnco.dll
+- sapnco_utils.dll → lib/bin/sapnco_utils.dll
+
+Download from: https://support.sap.com/nco
+(Requires valid SAP S-User account)
+
+Commands:
+  copy sapnco.dll lib\bin\
+  copy sapnco_utils.dll lib\bin\
+

@@ -1,0 +1,38 @@
+# Build artifacts (but keep SapRfcBridge.exe)
+lib/bin/*.pdb
+lib/bin/sapnco*.dll
+*.tgz
+*.log
+
+# Source code (not needed by users)
+lib/*.cs
+lib/*.csproj
+
+# External SAP DLLs (users must provide their own)
+external/*.dll
+external/*.pdb
+
+# Development files
+test-*.js
+verify-package.js
+random.js
+
+# Documentation (keep what's needed, exclude extras)
+*_SUPPORT.md
+*_RELEASE_NOTES.md
+*_UPDATED.md
+ARM64_SUPPORT.md
+CHANGELOG.md
+PUBLISH*.md
+SYNC_FUNCTION_ADDED.md
+TEST_RESULTS.md
+V1.4.0_RELEASE_NOTES.md
+README_UPDATED.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
